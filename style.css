@@ -1,0 +1,597 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+header {
+    height: 80px;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(229, 229, 229, 1);
+    padding: 24px 20px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+#select {
+    width: 80px;
+    height: 48px;
+    display: none;
+
+}
+
+.container .header-left {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+}
+
+.container .header-left button {
+    width: 256px;
+    height: 36px;
+    background-color: rgba(252, 0, 74, 1);
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding-block: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .navbar {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+
+.hero-section {
+    padding: 63px 24px;
+    text-align: center;
+}
+
+.hero2-section {
+    padding-top: 64px;
+    padding-left: 24px;
+    padding-bottom: 64px;
+}
+
+.hero2-container {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 44px;
+
+}
+
+.container-card {
+    width: 235px;
+    height: 391px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.container-card h2 {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 12px;
+}
+
+.container-card p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(252, 0, 74, 1);
+    margin-left: 12px;
+    margin-top: 8px;
+}
+
+.container-card .add-img {
+    margin-top: 40px;
+    margin-left: 183px;
+}
+
+.container-card .add-img2 {
+    margin-top: 40px;
+    margin-left: 183px;
+}
+
+.container-card .add-img3 {
+    margin-top: 40px;
+    margin-left: 183px;
+}
+
+.container-card .add-img4 {
+    margin-top: 40px;
+    margin-left: 183px;
+}
+
+.container-card .add-img5 {
+    margin-top: 40px;
+    margin-left: 183px;
+}
+
+.container-card .add-img6 {
+    margin-top: 40px;
+    margin-left: 183px;
+}
+
+.container-card .add-img7 {
+    margin-top: 40px;
+    margin-left: 183px;
+}
+
+.container-card .add-img8 {
+    margin-top: 40px;
+    margin-left: 183px;
+}
+
+.container-card .add-img9 {
+    margin-top: 40px;
+    margin-left: 183px;
+}
+
+.container-card .add-img10 {
+    margin-top: 40px;
+    margin-left: 183px;
+}
+
+.container-card .add-img11 {
+    margin-top: 40px;
+    margin-left: 183px;
+}
+
+.container-card .add-img12 {
+    margin-top: 40px;
+    margin-left: 183px;
+}
+
+@media (max-width: 1024px) {
+    header {
+        height: 80px;
+        background-color: transparent;
+        border-bottom: 1px solid rgba(229, 229, 229, 1);
+        padding: 24px 20px;
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container .header-left {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        justify-content: center;
+    }
+
+    .container .header-left button {
+        width: 256px;
+        height: 36px;
+        background-color: rgba(252, 0, 74, 1);
+        border-radius: 12px;
+        border: none;
+        color: white;
+        padding-block: 6px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container .navbar {
+        display: flex;
+        gap: 15px;
+    }
+
+    .navbar a {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 1);
+        text-decoration: none;
+    }
+
+    .hero-section {
+        padding: 63px 24px;
+        text-align: center;
+    }
+
+    .hero2-section {
+        padding-top: 64px;
+        padding-left: 24px;
+        padding-bottom: 64px;
+
+    }
+
+    .hero2-container {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-top: 44px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .container-card {
+        width: 235px;
+        height: 391px;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+    }
+
+    .container-card h2 {
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 28px;
+        color: rgba(0, 0, 0, 1);
+        margin-left: 12px;
+    }
+
+    .container-card p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        color: rgba(252, 0, 74, 1);
+        margin-left: 12px;
+        margin-top: 8px;
+    }
+
+    .container-card .add-img {
+        margin-top: 40px;
+        margin-left: 183px;
+    }
+
+    .container-card .add-img2 {
+        margin-top: 40px;
+        margin-left: 183px;
+    }
+
+    .container-card .add-img3 {
+        margin-top: 40px;
+        margin-left: 183px;
+    }
+
+    .container-card .add-img4 {
+        margin-top: 40px;
+        margin-left: 183px;
+    }
+
+    .container-card .add-img5 {
+        margin-top: 40px;
+        margin-left: 183px;
+    }
+
+    .container-card .add-img6 {
+        margin-top: 40px;
+        margin-left: 183px;
+    }
+
+    .container-card .add-img7 {
+        margin-top: 40px;
+        margin-left: 183px;
+    }
+
+    .container-card .add-img8 {
+        margin-top: 40px;
+        margin-left: 183px;
+    }
+
+    .container-card .add-img9 {
+        margin-top: 40px;
+        margin-left: 183px;
+    }
+
+    .container-card .add-img10 {
+        margin-top: 40px;
+        margin-left: 183px;
+    }
+
+    .container-card .add-img11 {
+        margin-top: 40px;
+        margin-left: 183px;
+    }
+
+    .container-card .add-img12 {
+        margin-top: 40px;
+        margin-left: 183px;
+    }
+}
+
+@media (max-width: 768px) {
+    .h_img {
+        display: none;
+    }
+
+    header {
+        width: 100%;
+
+    }
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+
+    .container-card {
+        width: 211px;
+        height: 340px;
+    }
+
+    .container-card .add-img {
+        width: 40px;
+        height: 40px;
+        margin-top: -7px;
+        margin-left: 163px;
+    }
+
+    .container-card .add-img2 {
+        width: 40px;
+        height: 40px;
+        margin-top: -7px;
+        margin-left: 163px;
+    }
+
+    .container-card .add-img3 {
+        width: 40px;
+        height: 40px;
+        margin-top: -7px;
+        margin-left: 163px;
+    }
+
+    .container-card .add-img4 {
+        width: 40px;
+        height: 40px;
+        margin-top: -7px;
+        margin-left: 163px;
+    }
+
+    .container-card .add-img5 {
+        width: 40px;
+        height: 40px;
+        margin-top: -7px;
+        margin-left: 163px;
+    }
+
+    .container-card .add-img6 {
+        width: 40px;
+        height: 40px;
+        margin-top: -7px;
+        margin-left: 163px;
+    }
+
+    .container-card .add-img7 {
+        width: 40px;
+        height: 40px;
+        margin-top: -7px;
+        margin-left: 163px;
+    }
+
+    .container-card .add-img8 {
+        width: 40px;
+        height: 40px;
+        margin-top: -7px;
+        margin-left: 163px;
+    }
+
+    .container-card .add-img9 {
+        width: 40px;
+        height: 40px;
+        margin-top: -7px;
+        margin-left: 163px;
+    }
+
+    .container-card .add-img10 {
+        width: 40px;
+        height: 40px;
+        margin-top: -7px;
+        margin-left: 163px;
+    }
+
+    .container-card .add-img11 {
+        width: 40px;
+        height: 40px;
+        margin-top: -7px;
+        margin-left: 163px;
+    }
+
+    .container-card .add-img12 {
+        width: 40px;
+        height: 40px;
+        margin-top: -7px;
+        margin-left: 163px;
+    }
+
+}
+
+@media (max-width: 704px) {
+    .hero2-container {
+        margin-left: 100px;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 390px) {
+    .navbar a {
+        display: none;
+    }
+
+    header .container {
+        gap: 10px;
+    }
+
+    #select {
+        display: block;
+    }
+
+    .hero-section {
+        padding: 20px 16px;
+    }
+
+    .hero-section img {
+        width: 100%;
+    }
+
+    .hero2-container {
+        margin: 10px auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .hero2-section {
+        padding: 100px 16px;
+    }
+
+    .container-card {
+        position: relative;
+        width: 150px;
+        height: 313px;
+    }
+
+    .container-card img {
+        width: 100%;
+        height: 173px;
+    }
+
+    .container-card .add-img {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        bottom: 15px;
+        left: -60px;
+    }
+
+    .container-card .add-img2 {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        bottom: 15px;
+        left: -60px;
+    }
+
+    .container-card .add-img3 {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        bottom: 15px;
+        left: -60px;
+    }
+
+    .container-card .add-img4 {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        bottom: 15px;
+        left: -60px;
+    }
+
+    .container-card .add-img5 {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        bottom: 15px;
+        left: -60px;
+    }
+
+    .container-card .add-img6 {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        bottom: 15px;
+        left: -60px;
+    }
+
+    .container-card .add-img7 {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        bottom: 15px;
+        left: -60px;
+    }
+
+    .container-card .add-img8 {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        bottom: 15px;
+        left: -60px;
+    }
+
+    .container-card .add-img9 {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        bottom: 15px;
+        left: -60px;
+    }
+
+    .container-card .add-img10 {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        bottom: 15px;
+        left: -60px;
+    }
+
+    .container-card .add-img11 {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        bottom: 15px;
+        left: -60px;
+    }
+
+    .container-card .add-img12 {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        bottom: 15px;
+        left: -60px;
+    }
+}
+
+
+
+.btn{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
